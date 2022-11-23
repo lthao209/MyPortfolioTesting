@@ -53,4 +53,4 @@ jobs:
           token: ${{ secrets.TOKEN_GITHUB }}
           target_url: http://test-hello-world-bk.s3-website-ap-southeast-1.amazonaws.com/index.html
           state: 'success'
-          deployment_id: ${{ steps.test.outputs.deployment_id }}
+          deployment_id: ${{ steps.test.outputs.deployment_id }} 
